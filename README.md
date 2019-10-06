@@ -1,6 +1,6 @@
 # Zabbix Redis exporter
 
-A Zabbix module to export history raw data to Redis.
+A Zabbix module to export "raw" history data to Redis to be futher processed by other applications. For example the [zabbix_redis_influxdb](https://github.com/2kgwf/zabbix_redis_influxdb) which resolves the item names, keys, hosts, etc and stores that data into InfluxDB.
 
 NOTE: This is somewhat early in the development, and thus not yet recommended to be used in critical production systems.
 
